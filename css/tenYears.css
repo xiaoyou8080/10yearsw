@@ -1,0 +1,112 @@
+html,
+body {
+/*	position: relative;*/
+	height: 100%;
+	font-size: 14px;
+}
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif,"microsoft yahei";
+	color: #fff;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 640px;
+	
+}
+/*html{
+	font-size: 14px;
+}*/
+img{
+	display: block;
+	width: 100%;
+	border: 0;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	background: #000842;
+}
+
+/*样式*/
+.first{
+	position: absolute;
+	top: 4%;
+	left: 20%;
+}
+.logo1{
+	margin-top: 30%;
+}
+.secondTit{
+	position: absolute;
+	top: 2%;
+	left: 0;
+}
+.growUp{
+	margin: 0 auto;
+	position: relative;
+	margin-top: 5%;
+	width: 96%;
+}
+.growUp .txt{
+	position: absolute;
+	right: 0;
+	top: 5%;
+	text-align: left;
+	font-size: 0.625rem;
+}
+.growUp .linnianTxt,.growUp .xinnianTxt,.growUp .gananTxt{
+		top: 40%;
+		font-size: 1rem;
+}
+.growUp .linnianTxt{
+	left: 5%;
+}
+.growUp .xinnianTxt,.growUp .gananTxt{
+	right: 30%;
+}
+.marginTop1{
+	margin-top: 40px;
+}
+.activeTen{
+	margin: 4% auto;
+	width: 80%;
+}
+/*.service{
+	margin-top: 6%;
+}
+*/
+.gift{
+	width: 66%;
+	margin: 0 auto;
+}
+.endLogo{
+	width: 80%;
+	margin: 0 auto 5%;
+}
+.endAddress{
+	font-size: 1rem;
+	line-height: 20px;
+}
+.endAddress a{
+	color: #fff;
+	text-decoration: none;
+}
